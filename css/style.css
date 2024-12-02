@@ -8,7 +8,6 @@
     --h1: brown;
     --h2: green;
     --h4: rgb(190, 0, 178);
-    --nav: yellow;
     --button: violet;
     --p: rgb(33, 209, 33);
 }
@@ -21,7 +20,7 @@ header {
     background-color: var(--header);
     justify-content: space-around;
     height: auto;
-    padding: 5px;
+    padding-top: 20px;
     
 
 }    
@@ -77,7 +76,7 @@ p {
 }
 
 .logo {
-    background-color: var(--img);
+    /* background-color: var(--img); */
     
     width: 20%;
 }
@@ -90,9 +89,18 @@ p {
 }
 
 nav{
-    background-color: var(--nav);
+    /* background-color: var(--nav); */
     /* flex-basis: 200px; */
     width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 button {
@@ -103,7 +111,11 @@ button {
 }
 
 .button-header {
+
     width: 20%;
+    background-color: white;
+    border-radius: 20%;
+
 }
 
 ul {
@@ -235,8 +247,8 @@ hr {
 
 .flex-figure5 {
 
-    background-color: aliceblue;
-    height: 20px;
+    /* background-color: aliceblue; */
+    /* height: 20px; */
     width: 20%;
 }
 
