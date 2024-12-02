@@ -1,15 +1,8 @@
 
 /* inizio sezione del root */
 :root{
-    --header: rgb(49, 49, 254);
-    --main: white;
-    --footer: black;
-    --img: red;
-    --h1: brown;
-    --h2: green;
-    --h4: rgb(190, 0, 178);
-    --button: violet;
-    --p: rgb(33, 209, 33);
+    --header: #255EE9;
+    --footer: #23272A;
 }
 /* fine sezione del root */
 
@@ -123,7 +116,7 @@ button {
     padding: 10px;
     background-color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
 
 
 }
@@ -141,20 +134,20 @@ hr {
     padding: 10px;
     background-color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .button-2{
     padding: 10px;
     background-color: #23272A;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .button-3{
     padding: 10px;
     background-color: #7289DA;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
 }
 /* Fine sezione dei Elementi */
@@ -197,6 +190,17 @@ hr {
     /* align-items: center; */
     padding: 30px;
 
+
+}
+
+.flex-container-center {
+
+    display: flex;
+    padding: 30px;
+    background-color: #F5F5F5;
+    border-top: 1px solid red;
+    
+
 }
 
 .flex-figure {
@@ -230,7 +234,7 @@ hr {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     /* align-items: center; */
     flex-basis: 40%;
     /* padding: 50px; */
@@ -249,7 +253,7 @@ hr {
 
 .flex-container2 {
     display: flex;
-    /* background-color: aqua; */
+    background-color: #F6F6F6;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
