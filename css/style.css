@@ -1,4 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    font-family: "Rubik", sans-serif;
+}
+
 /* inizio sezione del root */
 :root{
     --header: #255EE9;
@@ -20,40 +26,21 @@ header {
 
 }    
 
-main {
-    background-color: var(--main);
-    /* flex-basis: 50%; */
-    /* display: flex; */
-    /* margin: 0 auto;
-    width: 60%; */
+main {  
 }
 
 footer {
-
     background-color: var(--footer);
     height: auto;
     padding: 30px;
-    /* display: flex;
-    padding: 30px;
-    gap: 10px; */
-    
 }
 /* Fine sezione del corpo */
 
 
-
 /* Inizio sezione dei Elementi */
-h1 {
-    /* background-color: var(--h1); */
-    /* height: 30px; */
-    /* width: 30%; */
-    text-align: center;
-}
+
 
 nav{
-    /* background-color: var(--nav); */
-    /* flex-basis: 200px; */
-    /* width: 30%; */
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -76,11 +63,16 @@ a {
 
 ul {
     list-style-type: none;
-    flex-basis: calc((100%) / 5);
+    
+}
+
+li {
+    color: white;
+    
 }
 
 hr {
-   border: 2px solid rgb(174, 255, 0);
+   border: 1px solid #255EE9;
    
 }
 
@@ -90,6 +82,7 @@ hr {
     border: none;
     border-radius: 15px;
 }
+
 .button-2{
     padding: 10px;
     background-color: #23272A;
@@ -97,12 +90,22 @@ hr {
     border: none;
     border-radius: 15px;
 }
+
 .button-3{
     padding: 10px;
     background-color: #7289DA;
     border: none;
     border-radius: 15px;
     color: white;
+}
+
+.titolo-colorato {
+    color: #255EE9;
+    font-size: larger;
+}
+
+.titolo-colorato2 {
+    color: #255EE9;
 }
 /* Fine sezione dei Elementi */
 
@@ -123,7 +126,8 @@ hr {
     background-size: cover;           
     background-repeat: no-repeat;    
     background-position: center; 
-    padding: 100px;
+    padding: 150px;
+    text-align: center;
     
 }
 
@@ -134,8 +138,6 @@ hr {
 
 }
 
-
-
 .flex-container {
 
     display: flex;
@@ -144,17 +146,13 @@ hr {
     /* align-items: center; */
     padding: 30px;
 
-
 }
 
 .flex-container-center {
-
     display: flex;
     padding: 30px;
     background-color: #F5F5F5;
-    border-top: 1px solid red;
-    
-
+    /* border-top: 1px solid red; */
 }
 
 .flex-figure {
@@ -195,16 +193,6 @@ hr {
     gap: 10px;
 }
 
-
-.flex-figure6 {
-
-    /* background-color: red; */
-    /* height: 100px;
-    width: 50%; */
-
-}
-
-
 .flex-container2 {
     display: flex;
     background-color: #F6F6F6;
@@ -216,9 +204,7 @@ hr {
 
 }
 
-
 .flex-container4 {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,11 +212,10 @@ hr {
     width: 60%;
     gap: 10px;
     padding-top: 30px;
-
+    text-align: center;
 }
 
 .last {
-
     /* width: 50%; */
     display: flex;
     justify-content: center;
@@ -246,30 +231,19 @@ hr {
 }
 
 .primo-link {
-    /* background-color: aqua; */
-    height: 50px;
-    width: 27%;
+    flex-basis: 25%;
+    /* color: #255EE9; */
     
+}
+
+.primo-link2 {
+    flex-basis: calc((100%) / 5);
 }
 
 .flex-footer2 {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
-    
 }
-
-/* .flex-figure5 {
-
-    /* background-color: aliceblue; */
-    /* height: 20px; */
-    /* width: 20%; */
-/* } */
-
-/* .flex-button5 {
-    background-color: var(--button);
-    height: 20px;
-    width: 20%;
-} */ 
     
 /* Fine sezione dei Flex container */
