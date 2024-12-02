@@ -17,10 +17,15 @@
 /* Inizio sezione del corpo */
 header {
     display: flex;
-    background-color: var(--header);
+    background-color: #255EE9;
     justify-content: space-around;
     height: auto;
-    padding-top: 20px;
+    padding-top: 10px;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+
+
     
 
 }    
@@ -29,8 +34,8 @@ main {
     background-color: var(--main);
     /* flex-basis: 50%; */
     /* display: flex; */
-    /* margin: auto;
-    width: 80%; */
+    margin: 0 auto;
+    width: 60%;
 }
 
 footer {
@@ -49,9 +54,10 @@ footer {
 
 /* Inizio sezione dei Elementi */
 h1 {
-    background-color: var(--h1);
-    height: 30px;
-    width: 30%;
+    /* background-color: var(--h1); */
+    /* height: 30px; */
+    /* width: 30%; */
+    text-align: center;
 }
 
 h2 {
@@ -68,17 +74,16 @@ h4 {
 }
 
 p {
-    background-color: var(--p);
-    height: 50px;
-    width: 30%;
-    /* padding: 20px; */
+    
+    /* height: 50px;
+    width: 30%; */
+    text-align: center;
 
 }
 
 .logo {
     /* background-color: var(--img); */
     
-    width: 20%;
 }
 
 .img-big {
@@ -91,7 +96,7 @@ p {
 nav{
     /* background-color: var(--nav); */
     /* flex-basis: 200px; */
-    width: 30%;
+    /* width: 30%; */
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -104,17 +109,22 @@ a {
 }
 
 button {
-    background-color: var(--button);
-    height: 30px;
-    width: 50%;
+    /* background-color: var(--button); */
+    /* height: 30px;
+    width: 50%; */
     
 }
 
 .button-header {
 
-    width: 20%;
+    
     background-color: white;
     border-radius: 20%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
 
 }
 
@@ -127,7 +137,20 @@ hr {
    
 }
 
-
+.button-1{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.button-2{
+    padding: 10px;
+    background-color: #23272A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
 /* Fine sezione dei Elementi */
 
 
@@ -136,16 +159,24 @@ hr {
 .container1 {
 
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    height: 200px;
-    background-color: var(--header);
+    color: white;
+    gap: 10px;
+    /* height: 200px; */
+    background-image: url('../img/jumbo.png'); 
+    background-size: cover;           
+    background-repeat: no-repeat;    
+    background-position: center; 
+    padding: 100px;
+    
 }
 
-.button {
+.flex-button {
     display: flex;
-    width: 30%;
+    gap: 10px;
+    /* width: 30%; */
 
 }
 
